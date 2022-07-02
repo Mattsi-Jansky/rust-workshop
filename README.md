@@ -18,8 +18,8 @@ Use `cargo run` to run your game. To begin with it will fail because the `render
 
 ## Steps
 
-[Step One - Rendering](steps/1.md)
-Step Two - Validating Moves
-Step Three - Winning, Horizontally and Vertically
-Step Four - Winning, Diagonally
-Step Five - Drawing
+* [Step One - Rendering](steps/1.md)
+* Step Two - Validating Moves
+* Step Three - Winning, Horizontally and Vertically
+* Step Four - Winning, Diagonally
+* Step Five - Drawing
