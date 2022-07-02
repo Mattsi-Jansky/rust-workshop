@@ -80,12 +80,6 @@ impl Game {
     }
 }
 
-impl Default for Game {
-    fn default() -> Self {
-        Self::new()
-    }
-}
-
 fn is_win_state(state: [Cell; 9]) -> bool {
     let mut result = false;
 
