@@ -138,7 +138,9 @@ fn render_state(state: [Cell; 9]) -> String {
             Cell::None => " ",
         });
 
-        if (i + 1) % 3 == 0 && i < 8 {
+        let is_last_character_in_line = (i + 1) % 3 == 0;
+        let is_not_last_line = i < 8;
+        if  is_last_character_in_line && is_not_last_line {
             result.push('\n')
         };
     }
