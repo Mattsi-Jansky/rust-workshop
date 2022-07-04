@@ -39,3 +39,11 @@ The only thing that is implemented is that a new game can be created with `Game:
 * To address the correct cell in the one-dimensional array given a two-dimensional adddress `x,y` the correct formula is: `x + (y * 3)`
 * To pass the third test you need to use `self.is_first_player_turn`.
   * It's value should invert each turn
+
+## Run tests
+
+Use `cargo test` to run the tests. One test is provided to start with in `1_start`, and the later steps each have more tests.
+
+## Run application
+
+Use `cargo run` to run your game. To begin with it will fail because the `render` and `make_move` functions are not implemented. But once you have implemented rendering and it can understand at least some moves, you'll be able to play the game.

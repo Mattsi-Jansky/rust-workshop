@@ -20,3 +20,11 @@ After completing this step, your Tic Tac Toe game will be fully-featured! Play i
 ## Hints
 
 * This logic can be chained off of your win state conditionals in the `make_move` function.
+
+## Run tests
+
+Use `cargo test` to run the tests.
+
+## Run application
+
+Use `cargo run` to run your game.

@@ -32,3 +32,11 @@ If you did not complete the previous step start from `3_horizontal_and_vertical_
 * You can use `panic!("reason")` to fail a test
 * You can compare to _instances_ of an enum with `==`, such as `let a = Cell::None; let b = Cell::None; a == b`. But you _can't_ use `==` to compare an instance of an enum to an enum type, such as `a == Cell::None`. For that you need to use `matches!`.
 * Remember that you can use `matches!(variable, Enum::Variant)` to check if a variable is of a particular enum variant
+
+## Run tests
+
+Use `cargo test` to run the tests.
+
+## Run application
+
+Use `cargo run` to run your game.

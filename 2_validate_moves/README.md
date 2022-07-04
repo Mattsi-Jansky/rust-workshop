@@ -22,3 +22,11 @@ If you did not complete the previous step start from `2_validate_moves`. Otherwi
 * You will need to change the assertion of your new test to expect to see `IllegalMove`. You will not need (nor be able to) call `render` at all.
   * Note how the use of the `MoveResult` enum prevents you from being able to call `make_move` if the previous move was illegal. This prevents you from being able to produce an incorrect program. Compile-time checks like these are Rust's bread & butter. 
 * You can use `matches!` to check whether a variable matches an enum. For example, `matches!(strawberry, FoodTypes::Berry)`
+
+## Run tests
+
+Use `cargo test` to run the tests.
+
+## Run application
+
+Use `cargo run` to run your game.

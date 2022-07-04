@@ -1,7 +1,11 @@
 # Tic-Tac-Toe in Rust
 
-This is a simple Tic-Tac-Toe implementation as practice for a Rust workshop I'll be hosting in July.
+This is an example of the complete Tic Tac Toe application.
 
 ## Run tests
 
-`cargo test`
+Use `cargo test` to run the tests.
+
+## Run application
+
+Use `cargo run` to run your game.

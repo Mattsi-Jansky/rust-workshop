@@ -21,3 +21,11 @@ If you did not complete the previous step start from `4_diagonal_win_states`. Ot
 ## Hints
 
 * There are only two possible win states to check here, and it is simpler and faster to check them manually than to try do it algorithmically.
+
+## Run tests
+
+Use `cargo test` to run the tests.
+
+## Run application
+
+Use `cargo run` to run your game.
