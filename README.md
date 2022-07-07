@@ -23,3 +23,8 @@ Use `cargo run` to run your game. To begin with it will fail because the `render
 * [Step Three - Winning, Horizontally and Vertically](3_horizontal_and_vertical_win_states/README.md)
 * [Step Four - Winning, Diagonally](4_diagonal_win_states/README.md)
 * [Step Five - Drawing](5_draws/README.md)
+
+## Slides
+
+The slides from the workshop are also included in `workshop.pdf` and the accompanying handouts in `workshop handouts.pdf`.
+
